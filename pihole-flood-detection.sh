@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# SPDX-FileCopyrightText: Out of Control Inc
 # SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2026 Out of Control, Inc.
 
 # Pi-hole Query Flood Detection
 # Compares recent query count against historical average
@@ -9,10 +9,10 @@
 
 DB="/etc/pihole/pihole-FTL.db"
 STATE_FILE="/var/lib/pihole/flood-detect-state"
-NTFY_SERVER="https://ntfy.outofcontrol.ca"  # Your ntfy server URL
-NTFY_TOPIC="pihole"              # Your ntfy topic
-NTFY_TOKEN="tk_0ivy1zx0tpwnl4115g76il47crrca"         # Your ntfy access token
-THRESHOLD_MULTIPLIER=3  # Alert if current count > 3x the average
+NTFY_SERVER="https://ntfy.outofcontrol.ca"    # Your ntfy server URL
+NTFY_TOPIC="pihole"                           # Your ntfy topic
+NTFY_TOKEN="tk_0ivy1zx0tpwnl4115g76il47crrca" # Your ntfy access token
+THRESHOLD_MULTIPLIER=3                        # Alert if current count > 3x the average
 WINDOW_MINUTES=15
 HISTORY_HOURS=24
 

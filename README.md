@@ -1,7 +1,9 @@
-<!-- SPDX-FileCopyrightText: Out of Control Inc -->
-<!-- SPDX-License-Identifier: MIT -->
-
 # Pi-hole Query Flood Detection
+
+<!-- SPDX-License-Identifier: MIT -->
+SPDX-FileCopyrightText: 2026 Out of Control, Inc.
+
+> **Note:** This script was created with the assistance of AI (Claude) under human oversight and direction. While the code has been tested and reviewed, please use it responsibly and verify results for critical applications.
 
 A lightweight bash script that monitors Pi-hole DNS query rates and sends a notification via [ntfy](https://ntfy.sh) when a query flood is detected.
 
